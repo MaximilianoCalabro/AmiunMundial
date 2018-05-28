@@ -1,16 +1,6 @@
-@font-face {
-font-family: Plane Crash;
-src: url(font/Plane Crash.ttf);
-}
-
-body {
-	background-image: url("img/fondo.jpg");
-}
-
 .mundial {
 	font-family: "Plane Crash";
 }
-
 
 #toyota {
 	width: 80%;
