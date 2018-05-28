@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Plane Crash;
+	src:url(font/Plane Crash.ttf);
+}
+
 .mundial {
 	font-family: "Plane Crash";
 }
