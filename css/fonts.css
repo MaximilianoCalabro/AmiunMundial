@@ -1,0 +1,14 @@
+@font-face {
+	font-family:Plane Crash;
+	src:url(../font/Plane Crash.ttf);
+}
+
+@font-face {
+	font-family: ToyotaDisplay;
+	src:url(**/font/ToyotaDisplay.ttf) ;
+}
+
+@font-face {
+	font-family: ToyotaDisplay;
+	src:url(**/font/ToyotaDisplay_He.ttf) ;
+}

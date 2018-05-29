@@ -1,23 +1,51 @@
-@font-face {
-	font-family: Plane Crash;
-	src:url(font/Plane Crash.ttf);
+html {
+	max-width: 100%;
+	max-height: auto;
 }
 
-.mundial {
-	font-family: "Plane Crash";
+body {
+	background-image: url("../img/fondo.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family:"Plane Crash", ToyotaDisplay, Arial;
+	font-size:4vw;
+	color: white;
+	font-weight: bold;
 }
 
 #toyota {
-	width: 80%;
+	margin-top: 60px;
+	width: 35%;
 }
 
 #tele {
-	width: 65%;
+	position: absolute;
+	width: 60%;
+	left: 23%;
 }
 
 #auto {
-	width: 80%;
-	top: 70%;
-	left: 7%;
+	width: 135%;
+	top: 270%;
+	left: -20%;
 }
 
+/*	<style type="text/css">
+
+    @font-face {
+        font-family: "Plane Crash";
+        src: url("font/Plane Crash.ttf") format("truetype");
+    }
+    @font-face {
+        font-family: "ToyotaDisplay";
+        src: url("font/ToyotaDisplay.ttf") format("opentype");
+    }
+    @font-face{
+        font-family: "ToyotaDisplay_He";
+        src: url("font/ToyotaDisplay_He.ttf");
+    }
+ 
+	</style>*/
