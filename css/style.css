@@ -24,12 +24,16 @@ html {
 		font-weight: bold;
 	}
 
+	#amiun {
+		color: red;
+	}
+
 	#plan {
 		position: absolute;
 		font-family:"Plane Crash", ToyotaDisplay, Arial;
 		font-size:4vw;
-		color: white;
-	    top: 290%;
+		color: white;    
+		top: 358%;
 	    left: 11%;
 	}
 
@@ -40,15 +44,15 @@ html {
 
 	#tele {
 	    position: absolute;
-	    width: 63%;
-	    top: 96px;
-	    left: 47%;
+	    width: 85%;
+	    top: 290px;
+	    left: 17%;
 	}
 
 	#auto {
-		width: 130%;
-	    top: 370px;
-	    left: 8%;
+		width: 113%;
+	    top: 704px;
+	    left: -4%;
 	}	
 }
 
@@ -104,12 +108,14 @@ html {
 	}
 
 	#toyota {
+		min-width: 50%;
 	    margin-top: 15px;
 	    margin-left: 46%;
 	    width: 50%;
 	}
 
 	#tele {
+		min-width: 63%;
 	    position: absolute;
 	    top: 130px;
 	    width: 63%;
@@ -117,6 +123,7 @@ html {
 	}
 
 	#auto {
+		min-width: 130%;
 	    width: 130%;
 	    top: 320%;
 	    left: -18%;
