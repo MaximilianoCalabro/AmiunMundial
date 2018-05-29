@@ -5,10 +5,10 @@
 
 @font-face {
 	font-family: ToyotaDisplay;
-	src:url(**/font/ToyotaDisplay.ttf) ;
+	src:url(../font/ToyotaDisplay.ttf) ;
 }
 
 @font-face {
 	font-family: ToyotaDisplay;
-	src:url(**/font/ToyotaDisplay_He.ttf) ;
+	src:url(../font/ToyotaDisplay_He.ttf) ;
 }

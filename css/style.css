@@ -3,49 +3,122 @@ html {
 	max-height: auto;
 }
 
-body {
-	background-image: url("../img/fondo.jpg");
-	background-size: 100%;
+@media (min-width: 576px) {
+  	.container {
+    	max-width: 540px;
+  	}
+	
+	body {
+		padding-top: -54px;
+		position: fixed;
+		background-image: url("../img/fondo.jpg");
+		background-size: 240%;
+		background-position: top;
+		background-repeat: no-repeat;
+	}
+
+	#mundial {
+		font-family:"Plane Crash", ToyotaDisplay, Arial;
+		font-size:8vw;
+		color: white;
+		font-weight: bold;
+	}
+
+	#plan {
+		position: absolute;
+		font-family:"Plane Crash", ToyotaDisplay, Arial;
+		font-size:4vw;
+		color: white;
+	    top: 290%;
+	    left: 11%;
+	}
+
+  	#toyota {
+	    width: 92%;
+	    margin-right: -3%;
+	}
+
+	#tele {
+	    position: absolute;
+	    width: 63%;
+	    top: 96px;
+	    left: 47%;
+	}
+
+	#auto {
+		width: 130%;
+	    top: 370px;
+	    left: 8%;
+	}	
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  body {
+  	position: fixed;
+  	background-position: top;
 	background-repeat: no-repeat;
+	background-image: url("../img/fondo.jpg");
+	background-size: 110%;
+	background-repeat: no-repeat;
+	}
+	
+	#bord {
+		margin-left: 25%;
+	}
+
+	#mundial {
+		text-align: center;
+		font-family:"Plane Crash", ToyotaDisplay, Arial;
+		font-size:4vw;
+		color: white;
+		font-weight: bold;
+	}
+
+	#plan {
+		position: absolute;
+		max-width: 25%;
+		font-family:"Plane Crash", ToyotaDisplay, Arial;
+		font-size:2vw;
+		color: white;
+	    top: 160%;
+	    left: -10%;
+	}
+
+	#amiun {
+		color: red;
+	}
+
+	#toyota {
+	    margin-top: 15px;
+	    margin-left: 46%;
+	    width: 50%;
+	}
+
+	#tele {
+	    position: absolute;
+	    top: 130px;
+	    width: 63%;
+	    left: 21%;
+	}
+
+	#auto {
+	    width: 130%;
+	    top: 320%;
+	    left: -18%;
+	}
 }
-
-h1 {
-	font-family:"Plane Crash", ToyotaDisplay, Arial;
-	font-size:4vw;
-	color: white;
-	font-weight: bold;
-}
-
-#toyota {
-	margin-top: 60px;
-	width: 35%;
-}
-
-#tele {
-	position: absolute;
-	width: 60%;
-	left: 23%;
-}
-
-#auto {
-	width: 135%;
-	top: 270%;
-	left: -20%;
-}
-
-/*	<style type="text/css">
-
-    @font-face {
-        font-family: "Plane Crash";
-        src: url("font/Plane Crash.ttf") format("truetype");
-    }
-    @font-face {
-        font-family: "ToyotaDisplay";
-        src: url("font/ToyotaDisplay.ttf") format("opentype");
-    }
-    @font-face{
-        font-family: "ToyotaDisplay_He";
-        src: url("font/ToyotaDisplay_He.ttf");
-    }
- 
-	</style>*/
