@@ -46,7 +46,7 @@
 	#plan {
 	    position: absolute;
 	    border: 5px dotted #045BC7;
-	    background-color: #247AD3;
+	    background-color: rgba(34,146,233,0.5);
 	    border-radius: 75%;
 	    font-family: "Plane Crash", ToyotaDisplay, Arial;
 	    font-size: 6vw;
