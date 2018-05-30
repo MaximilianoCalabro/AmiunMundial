@@ -45,12 +45,6 @@
 
 	#plan {
 	    position: absolute;
-	    border: 5px dotted #045BC7;
-background: -moz-radial-gradient(center, ellipse cover, rgba(84,177,234,0) 0%, rgba(84,177,234,0.51) 50%, rgba(125,185,232,1) 98%); /* FF3.6-15 */
-background: -webkit-radial-gradient(center, ellipse cover, rgba(84,177,234,0) 0%,rgba(84,177,234,0.51) 50%,rgba(125,185,232,1) 98%); /* Chrome10-25,Safari5.1-6 */
-background: radial-gradient(ellipse at center, rgba(84,177,234,0) 0%,rgba(84,177,234,0.51) 50%,rgba(125,185,232,1) 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0054b1ea', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	    border-radius: 75%;
 	    font-family: "Plane Crash", ToyotaDisplay, Arial;
 	    font-size: 6vw;
 	    color: white;
