@@ -1,0 +1,2 @@
+http://www.vidadelprogramador.com/mostrar-modal-ventana-emergente-de-forma-automatica-usando-modal-bootstrap/
+http://soyfrontend.com/crear-ventana-modal-con-solo-css/
