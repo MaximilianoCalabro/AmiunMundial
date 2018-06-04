@@ -33,7 +33,7 @@
 	}
 
 	#mundial {
-		font-family:"Plane Crash", ToyotaDisplay, Arial;
+		font-family:"ToyotaDisplay", Arial;
 		font-size:8vw;
 		color: white;
 		font-weight: bold;
@@ -45,7 +45,7 @@
 
 	#plan {
 	    position: absolute;
-	    font-family: "Plane Crash", ToyotaDisplay, Arial;
+		font-family:"ToyotaDisplay", Arial;
 	    font-size: 6vw;
 	    color: white;
 	    top: 262%;
